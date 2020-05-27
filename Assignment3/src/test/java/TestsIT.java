@@ -27,9 +27,9 @@ public class TestsIT {
 		AlgebraicFunctions classB = new AlgebraicFunctions();
 		
 		double a = classA.Add(1, 1);
-		double b  = classA.Add(2, 1);
+		double b  = classA.Subtract(2, 1);
 		
-		double expected = 25;
+		double expected = 3;
 		
 		Assert.assertEquals(classB.aplusbwholesquare(a, b), expected, 0.00001);
 	}
